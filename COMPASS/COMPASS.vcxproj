@@ -18,6 +18,20 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Files\Source\Hangman.hpp" />
+    <ClInclude Include="..\Files\Source\HangmanConsole.hpp" />
+    <ClInclude Include="..\Files\Source\Words.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\Files\Resource\enable1.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Files\Source\Hangman.cpp" />
+    <ClCompile Include="..\Files\Source\HangmanConsole.cpp" />
+    <ClCompile Include="..\Files\Source\Main.cpp" />
+    <ClCompile Include="..\Files\Source\Words.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -138,20 +152,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\COMPASS_\Hangman.hpp" />
-    <ClInclude Include="..\..\COMPASS_\HangmanConsole.hpp" />
-    <ClInclude Include="..\..\COMPASS_\Words.hpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\COMPASS_\Hangman.cpp" />
-    <ClCompile Include="..\..\COMPASS_\HangmanConsole.cpp" />
-    <ClCompile Include="..\..\COMPASS_\Main.cpp" />
-    <ClCompile Include="..\..\COMPASS_\Words.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="..\..\COMPASS_\enable1.txt" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
